@@ -1,5 +1,5 @@
 import React from 'react'
-import './rules.scss'
+import './About.scss'
 import gif from './gif/gif.gif'
 const Rules = () => {
   return (
