@@ -1,12 +1,12 @@
 import React from 'react'
-import './menu.scss'
+import '../screens/product.scss'
 import { Link } from 'react-router-dom'
 
-const Menu = () => {
+const Product = () => {
   return (
     <>
-      <div className= 'product'>
-        <img src={require('../img/menudo.jpg').default }/>
+      <div className='product'>
+        <img src={require('../img/menudo.jpg').default} />
 
         <div className='product__info'>
           <p className='info__name'>Product 1</p>
@@ -16,11 +16,13 @@ const Menu = () => {
 
           <p className='info__price'>$49.99</p>
 
-          <Link to={`/product/${1}`} className='info__ button'>View</Link>
+          <Link to={`/product/${1}`} className='info__button'>
+            View
+          </Link>
         </div>
       </div>
     </>
   )
 }
 
-export default Menu
+export default Product

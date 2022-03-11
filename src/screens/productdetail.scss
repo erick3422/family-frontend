@@ -1,0 +1,121 @@
+.product__screen {
+    max-width: 1300px;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.product__screen__left {
+    display: flex;
+    flex:0.8;
+}
+
+.left__image img {
+    width: 400px;
+    margin: 1rem;
+    flex: 0.6;
+    border-radius: 8px;
+}
+
+.left__info {
+    margin: 1rem;
+    flex:0.4;
+    background: #fff;
+    height: fit-content;
+    font-size: 0.9rem;
+    border-radius: 10px;
+}
+
+.left__name {
+    font-weight: bold;
+    font-size:1.3rem;
+}
+
+.left__info p {
+    padding:1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.right__info p {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.left__info p:last-child {
+border:none;
+}
+
+.right__info p:last-child {
+border: none;
+}
+
+.product__screen__right {
+    flex: 0.2;
+}
+
+.right__info {
+    width: 250px;
+    margin: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.right__info p {
+    padding:1rem;
+    font-size: 0.8rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.right__info button {
+background-color: #c2fbd7;
+border-radius: 100px;
+box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+  rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+  rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+  rgba(44, 187, 99, 0.15) 0 16px 32px;
+color: green;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+padding: 6px 8px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+}
+
+.right__info button:hover {
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+  rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+  rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+  rgba(44, 187, 99, 0.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+
+}
+
+@media (max-width: 960px) {
+    .product__screen {
+        flex-direction: column;
+    }
+    .product__screen__left {
+        flex-direction: column;
+        flex: 1;
+    }
+    .left__image {
+        flex:1
+    }
+    .left__info {
+        flex:1;
+    }
+    .product__screen__right {
+        flex:1;
+        padding:1rem; 
+    }
+    
+}

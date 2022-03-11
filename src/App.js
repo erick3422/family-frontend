@@ -13,10 +13,12 @@ import ChangePassword from './components/auth/ChangePassword'
 import Profile from './components/profiles/Profile'
 import ProfileCreate from './components/profiles/ProfileCreate'
 import ProfileEdit from './components/profiles/ProfileEdit'
-import Home from './components/Home'
-import Menu from './components/Menu'
-import About from './components/About'
+import Home from './screens/Home'
+import Menu from './screens/Menu'
+import About from './screens/About'
 import Chat from './components/Chat/chat'
+import ProductDetail from './screens/ProductDetail'
+import Cart from './screens/Cart'
 
 const App = () => {
   const [user, setUser] = useState(null)
@@ -49,6 +51,8 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/menu' element={<Menu />}/>
           <Route path='/about' element={<About />} />
+          <Route path='/product/:id' element={<ProductDetail/>}/>
+          <Route path='/cart' element={<Cart />}/>
           <Route
             path='/sign-up'
             element={<SignUp setUser={setUser} msgAlert={msgAlert} />}
