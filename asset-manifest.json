@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/family-frontend/static/css/main.0a7d5e57.chunk.css",
-    "main.js": "/family-frontend/static/js/main.f56f49bf.chunk.js",
-    "main.js.map": "/family-frontend/static/js/main.f56f49bf.chunk.js.map",
+    "main.css": "/family-frontend/static/css/main.6eb1dcec.chunk.css",
+    "main.js": "/family-frontend/static/js/main.1a2cf0e3.chunk.js",
+    "main.js.map": "/family-frontend/static/js/main.1a2cf0e3.chunk.js.map",
     "runtime-main.js": "/family-frontend/static/js/runtime-main.cc1961b8.js",
     "runtime-main.js.map": "/family-frontend/static/js/runtime-main.cc1961b8.js.map",
-    "static/js/2.47b0ab86.chunk.js": "/family-frontend/static/js/2.47b0ab86.chunk.js",
-    "static/js/2.47b0ab86.chunk.js.map": "/family-frontend/static/js/2.47b0ab86.chunk.js.map",
+    "static/js/2.47aa435c.chunk.js": "/family-frontend/static/js/2.47aa435c.chunk.js",
+    "static/js/2.47aa435c.chunk.js.map": "/family-frontend/static/js/2.47aa435c.chunk.js.map",
     "index.html": "/family-frontend/index.html",
-    "static/css/main.0a7d5e57.chunk.css.map": "/family-frontend/static/css/main.0a7d5e57.chunk.css.map",
-    "static/js/2.47b0ab86.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.47b0ab86.chunk.js.LICENSE.txt",
+    "static/css/main.6eb1dcec.chunk.css.map": "/family-frontend/static/css/main.6eb1dcec.chunk.css.map",
+    "static/js/2.47aa435c.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.47aa435c.chunk.js.LICENSE.txt",
     "static/media/Message2.png": "/family-frontend/static/media/Message2.a5df28fa.png",
     "static/media/Message3.png": "/family-frontend/static/media/Message3.b8224785.png",
     "static/media/Message4.png": "/family-frontend/static/media/Message4.ad0083c7.png",
@@ -19,13 +19,12 @@
     "static/media/Texting 4.jpeg": "/family-frontend/static/media/Texting 4.a0885984.jpeg",
     "static/media/Texting 5.jpeg": "/family-frontend/static/media/Texting 5.013fae61.jpeg",
     "static/media/Texting 6.webp": "/family-frontend/static/media/Texting 6.a32ec01f.webp",
-    "static/media/gif.6bda8c01.gif": "/family-frontend/static/media/gif.6bda8c01.gif",
     "static/media/menudo.jpg": "/family-frontend/static/media/menudo.c6b212c2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc1961b8.js",
-    "static/js/2.47b0ab86.chunk.js",
-    "static/css/main.0a7d5e57.chunk.css",
-    "static/js/main.f56f49bf.chunk.js"
+    "static/js/2.47aa435c.chunk.js",
+    "static/css/main.6eb1dcec.chunk.css",
+    "static/js/main.1a2cf0e3.chunk.js"
   ]
 }
