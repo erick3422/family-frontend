@@ -23,18 +23,20 @@ const Cart = () => {
           </Link>
         </li>
       </ul>
-      <div className='cart__screen__left'>
-        <h2>Shopping Cart</h2>
+      <div className='cart__screen'>
+        <div className='cart__screen__left'>
+          <h2>Shopping Cart</h2>
 
-        <CartItem />
-      </div>
-      <div className='cart__screen__right'>
-        <div className='cart__screen__info'>
-          <p>Subtotal (0) items</p>
-          <p>$49.99</p>
+          <CartItem />
         </div>
-        <div className='button__checkout'>
-          <button>Proceed To Checkout</button>
+        <div className='cart__screen__right'>
+          <div className='cart__screen__info'>
+            <p>Subtotal (0) items</p>
+            <p>$49.99</p>
+          </div>
+          <div className='button__checkout'>
+            <button>Proceed To Checkout</button>
+          </div>
         </div>
       </div>
     </>
