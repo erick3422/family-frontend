@@ -4,13 +4,15 @@ import './index.scss'
 
 import App from './App'
 import { BrowserRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
 const appJsx = (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <script src='/socket.io/socket.io.js'></script>
-    <script>var socket = io();</script>
-    <App />
-  </BrowserRouter>
+  <Provider store={store}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <App />
+    </BrowserRouter>
+  </Provider>
 )
 
 ReactDOM.render(appJsx, document.getElementById('root'))
