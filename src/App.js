@@ -16,7 +16,6 @@ import ProfileEdit from './components/profiles/ProfileEdit'
 import Home from './screens/Home'
 import Menu from './screens/Menu'
 import About from './screens/About'
-import Chat from './components/Chat/chat'
 import ProductDetail from './screens/ProductDetail'
 import Cart from './screens/Cart'
 
@@ -89,8 +88,6 @@ const App = () => {
               />
             }
           />
-
-          <Route path='/chat' element={<Chat user={user} />} />
         </Routes>
       </main>
     </>
