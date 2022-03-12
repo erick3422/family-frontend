@@ -19,7 +19,6 @@ import About from './screens/About'
 import Chat from './components/Chat/chat'
 import ProductDetail from './screens/ProductDetail'
 import Cart from './screens/Cart'
-import 'font-awesome/css/font-awesome.min.css'
 
 const App = () => {
   const [user, setUser] = useState(null)

@@ -2,15 +2,16 @@ import React from 'react'
 import '../screens/menu.scss'
 import Product from './Product'
 import { Link } from 'react-router-dom'
+
 const Menu = () => {
   return (
     <>
       <ul className='shopping__cart'>
         <li>
           <Link to={'/cart'} className='cart__link'>
-            <i className='fas fa-shopping-cart'></i>
+            <i className='fa-regular fa-cart-shopping'></i>
             <span>
-              Cart
+            Cart
               <span className='cart__logo__badge'>0</span>
             </span>
           </Link>
@@ -18,9 +19,7 @@ const Menu = () => {
         <li>
           <Link to={'/menu'} className='shop__link'>
             <i className='fa-solid fa-store'></i>
-            <span>
-             Shop
-            </span>
+            <span>Shop</span>
           </Link>
         </li>
       </ul>
