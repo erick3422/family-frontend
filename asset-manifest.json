@@ -1,34 +1,25 @@
 {
   "files": {
-    "main.css": "/family-frontend/static/css/main.1d3eedb0.chunk.css",
-    "main.js": "/family-frontend/static/js/main.21c3f83a.chunk.js",
-    "main.js.map": "/family-frontend/static/js/main.21c3f83a.chunk.js.map",
+    "main.css": "/family-frontend/static/css/main.094cabdb.chunk.css",
+    "main.js": "/family-frontend/static/js/main.311f5c0d.chunk.js",
+    "main.js.map": "/family-frontend/static/js/main.311f5c0d.chunk.js.map",
     "runtime-main.js": "/family-frontend/static/js/runtime-main.cc1961b8.js",
     "runtime-main.js.map": "/family-frontend/static/js/runtime-main.cc1961b8.js.map",
-    "static/css/2.daa29108.chunk.css": "/family-frontend/static/css/2.daa29108.chunk.css",
-    "static/js/2.6262fd9f.chunk.js": "/family-frontend/static/js/2.6262fd9f.chunk.js",
-    "static/js/2.6262fd9f.chunk.js.map": "/family-frontend/static/js/2.6262fd9f.chunk.js.map",
+    "static/js/2.2b71550d.chunk.js": "/family-frontend/static/js/2.2b71550d.chunk.js",
+    "static/js/2.2b71550d.chunk.js.map": "/family-frontend/static/js/2.2b71550d.chunk.js.map",
     "index.html": "/family-frontend/index.html",
-    "static/css/2.daa29108.chunk.css.map": "/family-frontend/static/css/2.daa29108.chunk.css.map",
-    "static/css/main.1d3eedb0.chunk.css.map": "/family-frontend/static/css/main.1d3eedb0.chunk.css.map",
-    "static/js/2.6262fd9f.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.6262fd9f.chunk.js.LICENSE.txt",
-    "static/media/Message2.png": "/family-frontend/static/media/Message2.a5df28fa.png",
-    "static/media/Message3.png": "/family-frontend/static/media/Message3.b8224785.png",
-    "static/media/Message4.png": "/family-frontend/static/media/Message4.ad0083c7.png",
-    "static/media/Message6.png": "/family-frontend/static/media/Message6.7db2bf97.png",
-    "static/media/Texting 1.png": "/family-frontend/static/media/Texting 1.3fe4b4d3.png",
-    "static/media/Texting 3.jpeg": "/family-frontend/static/media/Texting 3.5359350f.jpeg",
-    "static/media/Texting 4.jpeg": "/family-frontend/static/media/Texting 4.a0885984.jpeg",
-    "static/media/Texting 5.jpeg": "/family-frontend/static/media/Texting 5.013fae61.jpeg",
-    "static/media/Texting 6.webp": "/family-frontend/static/media/Texting 6.a32ec01f.webp",
-    "static/media/font-awesome.min.css": "/family-frontend/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/menudo.jpg": "/family-frontend/static/media/menudo.c6b212c2.jpg"
+    "static/css/main.094cabdb.chunk.css.map": "/family-frontend/static/css/main.094cabdb.chunk.css.map",
+    "static/js/2.2b71550d.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.2b71550d.chunk.js.LICENSE.txt",
+    "static/media/hamburgher.jpg": "/family-frontend/static/media/hamburgher.3d9ae069.jpg",
+    "static/media/menudo.jpg": "/family-frontend/static/media/menudo.c6b212c2.jpg",
+    "static/media/mondogo.jpg": "/family-frontend/static/media/mondogo.3c3214c6.jpg",
+    "static/media/pizza.jpg": "/family-frontend/static/media/pizza.16f90208.jpg",
+    "static/media/tacos.jpg": "/family-frontend/static/media/tacos.327c8b2f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc1961b8.js",
-    "static/css/2.daa29108.chunk.css",
-    "static/js/2.6262fd9f.chunk.js",
-    "static/css/main.1d3eedb0.chunk.css",
-    "static/js/main.21c3f83a.chunk.js"
+    "static/js/2.2b71550d.chunk.js",
+    "static/css/main.094cabdb.chunk.css",
+    "static/js/main.311f5c0d.chunk.js"
   ]
 }
