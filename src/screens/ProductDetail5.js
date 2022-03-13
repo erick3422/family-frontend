@@ -1,31 +1,31 @@
 import React from 'react'
 import '../screens/productdetail.scss'
 
-const ProductDetail = () => {
+const ProductDetail5 = () => {
   return (
     <>
       <div className='product__screen'>
         <div className='product__screen__left'>
           <div className='left__image'>
-            <img src={require('../img/menudo.jpg').default} />
+            <img src={require('../img/mondogo.jpg').default} />
           </div>
 
           <div className='left__info'>
-            <p className='left__name'>Menudo</p>
-            <p>Price:$7.99</p>
-            <p>Descriptions: Delicious Menudo </p>
+            <p className='left__name'>Mondogo</p>
+            <p>Price:$20.99</p>
+            <p>Description: Best Colombian Mondogo around the world. </p>
           </div>
         </div>
         <div className='product__screen__right'>
           <div className='right__info'>
             <p>
-            Price: <span>$7.99</span>
+             Price: <span>$20.99</span>
             </p>
             <p>
-            Status: <span>In Stock</span>
+             Status: <span>In Stock</span>
             </p>
             <p>
-            Qty
+             Qty
               <select>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
@@ -43,4 +43,4 @@ const ProductDetail = () => {
     </>
   )
 }
-export default ProductDetail
+export default ProductDetail5

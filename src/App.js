@@ -17,6 +17,10 @@ import Home from './screens/Home'
 import Menu from './screens/Menu'
 import About from './screens/About'
 import ProductDetail from './screens/ProductDetail'
+import ProductDetail2 from './screens/ProductDetail2'
+import ProductDetail3 from './screens/ProductDetail3'
+import ProductDetail4 from './screens/ProductDetail4'
+import ProductDetail5 from './screens/ProductDetail5'
 import Cart from './screens/Cart'
 
 const App = () => {
@@ -51,6 +55,10 @@ const App = () => {
           <Route path='/menu' element={<Menu />}/>
           <Route path='/about' element={<About />} />
           <Route path='/product/:id' element={<ProductDetail/>}/>
+          <Route path='/product1/:id' element={<ProductDetail2 />} />
+          <Route path='/product2/:id' element={<ProductDetail3 /> } />
+          <Route path='/product3/:id' element={<ProductDetail4 />} />
+          <Route path='/product4/:id' element={<ProductDetail5 />} />
           <Route path='/cart' element={<Cart />}/>
           <Route
             path='/sign-up'

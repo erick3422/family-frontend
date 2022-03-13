@@ -29,7 +29,7 @@ const Product = () => {
 
           <p className='info__price'>$9.99</p>
 
-          <Link to={`/product/${2}`} className='info__button'>
+          <Link to={`/product1/${2}`} className='info__button'>
         View
           </Link>
         </div>
@@ -44,7 +44,7 @@ const Product = () => {
 
           <p className='info__price'>$30.99</p>
 
-          <Link to={`/product/${2}`} className='info__button'>
+          <Link to={`/product2/${2}`} className='info__button'>
          View
           </Link>
         </div>
@@ -61,7 +61,7 @@ const Product = () => {
 
           <p className='info__price'>$20.99</p>
 
-          <Link to={`/product/${2}`} className='info__button'>
+          <Link to={`/product3/${2}`} className='info__button'>
          View
           </Link>
         </div>
@@ -78,7 +78,7 @@ const Product = () => {
 
           <p className='info__price'>$20.99</p>
 
-          <Link to={`/product/${2}`} className='info__button'>
+          <Link to={`/product4/${2}`} className='info__button'>
         View
           </Link>
         </div>
