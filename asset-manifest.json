@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/family-frontend/static/css/main.094cabdb.chunk.css",
-    "main.js": "/family-frontend/static/js/main.311f5c0d.chunk.js",
-    "main.js.map": "/family-frontend/static/js/main.311f5c0d.chunk.js.map",
+    "main.js": "/family-frontend/static/js/main.a43db918.chunk.js",
+    "main.js.map": "/family-frontend/static/js/main.a43db918.chunk.js.map",
     "runtime-main.js": "/family-frontend/static/js/runtime-main.cc1961b8.js",
     "runtime-main.js.map": "/family-frontend/static/js/runtime-main.cc1961b8.js.map",
-    "static/js/2.2b71550d.chunk.js": "/family-frontend/static/js/2.2b71550d.chunk.js",
-    "static/js/2.2b71550d.chunk.js.map": "/family-frontend/static/js/2.2b71550d.chunk.js.map",
+    "static/js/2.66156124.chunk.js": "/family-frontend/static/js/2.66156124.chunk.js",
+    "static/js/2.66156124.chunk.js.map": "/family-frontend/static/js/2.66156124.chunk.js.map",
     "index.html": "/family-frontend/index.html",
     "static/css/main.094cabdb.chunk.css.map": "/family-frontend/static/css/main.094cabdb.chunk.css.map",
-    "static/js/2.2b71550d.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.2b71550d.chunk.js.LICENSE.txt",
+    "static/js/2.66156124.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.66156124.chunk.js.LICENSE.txt",
     "static/media/hamburgher.jpg": "/family-frontend/static/media/hamburgher.3d9ae069.jpg",
     "static/media/menudo.jpg": "/family-frontend/static/media/menudo.c6b212c2.jpg",
     "static/media/mondogo.jpg": "/family-frontend/static/media/mondogo.3c3214c6.jpg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc1961b8.js",
-    "static/js/2.2b71550d.chunk.js",
+    "static/js/2.66156124.chunk.js",
     "static/css/main.094cabdb.chunk.css",
-    "static/js/main.311f5c0d.chunk.js"
+    "static/js/main.a43db918.chunk.js"
   ]
 }
