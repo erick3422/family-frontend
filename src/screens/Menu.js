@@ -28,9 +28,6 @@ const Menu = () => {
 
         <div className='menu__screen__products'>
           <Product />
-          <Product />
-          <Product />
-          <Product />
         </div>
       </div>
     </>
