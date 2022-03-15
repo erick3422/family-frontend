@@ -31,6 +31,20 @@ Family is a restaurant website where user can order different popular kind of fo
 - Awesome Icon
 
 
+### Set Up and Installation Instructions 
+
+- Download or clone Repositories 
+  
+# npm start 
+
+Run the app in the development mode.
+Open localhost to view in the browser.
+
+Page reload each tim you make edits.
+You will also see any lint errors in the console.
+
+
+
 ### Wireframe:
 
 ![Wireframe](https://i.imgur.com/ayfbSd3.png)
@@ -38,3 +52,14 @@ Family is a restaurant website where user can order different popular kind of fo
 ### ERD:
 
 ![ERD](https://i.imgur.com/xZLUmYf.png)
+
+
+### List of Problems which would be fixed in future
+
+- Added Item to Cart 
+- Added Checkout Payment 
+- Delete Item from the Cart
+- Added Home Screen 
+- Added About Screen 
+- Styling all Reference Mention 
+- Work in Profile Styling 
