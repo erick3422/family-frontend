@@ -76,9 +76,9 @@ const Profile = ({ user, msgAlert }) => {
   } else {
     return (
       <>
-        <h2 style={{ color: '#FFF', textDecoration: 'none' }} >{profile.name}</h2>
-        <h4 style={{ color: '#FFF', textDecoration: 'none' }}>About Me:</h4>
-        <p style={{ color: '#FFF', textDecoration: 'none' }} >{profile.about}</p>
+        <h2 style={{ color: '#FFF' }} >{profile.name}</h2>
+        <h4 style={{ color: '#FFF' }}>About Me:</h4>
+        <p style={{ color: '#FFF' }} >{profile.about}</p>
         <Button onClick={onDeleteProfile} variant='danger' type='button'>
           Delete Profile
         </Button>
