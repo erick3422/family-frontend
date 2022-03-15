@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/family-frontend/static/css/main.c60147d0.chunk.css",
+    "main.css": "/family-frontend/static/css/main.79d415b0.chunk.css",
     "main.js": "/family-frontend/static/js/main.14c5b85b.chunk.js",
     "main.js.map": "/family-frontend/static/js/main.14c5b85b.chunk.js.map",
     "runtime-main.js": "/family-frontend/static/js/runtime-main.cc1961b8.js",
@@ -8,7 +8,7 @@
     "static/js/2.accf02d7.chunk.js": "/family-frontend/static/js/2.accf02d7.chunk.js",
     "static/js/2.accf02d7.chunk.js.map": "/family-frontend/static/js/2.accf02d7.chunk.js.map",
     "index.html": "/family-frontend/index.html",
-    "static/css/main.c60147d0.chunk.css.map": "/family-frontend/static/css/main.c60147d0.chunk.css.map",
+    "static/css/main.79d415b0.chunk.css.map": "/family-frontend/static/css/main.79d415b0.chunk.css.map",
     "static/js/2.accf02d7.chunk.js.LICENSE.txt": "/family-frontend/static/js/2.accf02d7.chunk.js.LICENSE.txt",
     "static/media/hamburgher.jpg": "/family-frontend/static/media/hamburgher.3d9ae069.jpg",
     "static/media/menudo.jpg": "/family-frontend/static/media/menudo.c6b212c2.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.cc1961b8.js",
     "static/js/2.accf02d7.chunk.js",
-    "static/css/main.c60147d0.chunk.css",
+    "static/css/main.79d415b0.chunk.css",
     "static/js/main.14c5b85b.chunk.js"
   ]
 }
