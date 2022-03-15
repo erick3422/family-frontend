@@ -13,9 +13,6 @@ const authenticatedOptions = ({ user }) => {
         <NavLink to='/sign-out' className='nav-link'>
           Sign Out
         </NavLink>
-        <NavLink to='/chat' className='nav-link'>
-          ChatRoom
-        </NavLink>
         <NavLink to={`profiles/${user.profile._id}`} className='nav-link'>
           My Profile
         </NavLink>
