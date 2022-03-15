@@ -64,7 +64,7 @@ const ProfileCreate = ({ user, setUser, msgAlert }) => {
           </Form.Group>
 
           <Form.Group className='mb-3' controlId='aboutMe'>
-            <Form.Label>About Me</Form.Label>
+            <Form.Label >About Me</Form.Label>
             <Form.Control
               required
               value={aboutMe}
