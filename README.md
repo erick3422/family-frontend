@@ -35,7 +35,7 @@ Family is a restaurant website where user can order different popular kind of fo
 
 - Download or clone Repositories 
   
-# npm start 
+- npm start 
 
 Run the app in the development mode.
 Open localhost to view in the browser.
