@@ -4,7 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
+}
 
 
 
@@ -19,7 +32,98 @@ background-color:rgba(12,12,12,12);
   font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-.title {
-    color:white;
-    
+.app__header {
+  color:white;
+  font-family: var(--font-base);
+}
+
+.app__header-h1 {
+ font-family: var(--font-base);
+ color: var(--color-golden);
+ letter-spacing: 0.04em;
+ line-height: 118px;
+ font-size: 90px;
+}
+
+.app__header-img {
+  width: 80%;
+}
+ 
+.app__wrapper_img img {
+  position: absolute;
+  width: 25%;
+  right: 300px;
+  top: 220px;
+
+}
+
+.custom__button {
+  background-color: var(--color-crimson);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__header-h1 {
+    font-size: 180px;
+    line-height: 210px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-h1 {
+    font-size: 90px;
+  }
+  .custom__button {
+    cursor: coarse;
+  }
+  .app__wrapper_img img {
+    position: relative;
+    right: -50px;
+    top: 50px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 70px;
+    line-height: 87px;
+  }
+  .custom__button {
+    cursor: coarse;
+  }
+  .app__wrapper_img img {
+  position: relative;
+  right: -50px;
+  top: 50px;
+  width: 80%;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+  .app__header-h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .custom__button {
+    cursor: coarse;
+  }
+  .app__wrapper_img img {
+  position: relative;
+  right: -50px;
+  top: 50px;
+  width: 80%;
+}
+
 }
