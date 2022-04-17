@@ -72,6 +72,104 @@ background-color:rgba(12,12,12,12);
   cursor: pointer;
 }
 
+.app__specialMenu {
+  position: relative;
+  top: 30px;
+  right: -455px;
+  font-size: 30px;
+  color: var(--color-grey);
+  font-family: var(--font-base);
+}
+
+
+
+.app__specialMenu_wine {
+  position: relative;
+  top: -30px;
+}
+
+.app__specialMenu-menu_img img {
+  position: relative;
+  width: 35%;
+  right: -360px;
+  top: -790px;
+}
+
+.app__specialMenu_dishes{
+  position: relative;
+  right: -1000px;
+  top: -1420px;
+
+}
+
+.headtext__Menu {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 60px;
+}
+
+
+.app__specialMenu-menu {
+  position: relative;
+  top: 200px;
+  right: -10px;
+}
+
+.app__specialMenu_menu_heading {
+  font-size: 50px;
+}
+
+.app__specialMenu_button {
+  position: relative;
+  top:-250px;
+  right: -560px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 2000px) {
   .app__header-h1 {
     font-size: 180px;

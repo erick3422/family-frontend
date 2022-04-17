@@ -28,7 +28,7 @@ const wines = [
   }
 ]
 
-const cocktails = [
+const dishes = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
@@ -79,4 +79,4 @@ const awards = [
   }
 ]
 
-export default { wines, cocktails, awards }
+export default { wines, dishes, awards }
