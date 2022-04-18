@@ -1,0 +1,39 @@
+.app__menuitem {
+  width: 100%;
+  margin: 1rem 0;
+
+  position: relative;
+  
+}
+
+.app__menuitem-head {
+  display: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menuitem-sub {
+  position: relative;
+  top: -45px;
+}
+
+.app__menuitem-name {
+  flex: 1;
+  font-size: 20px;
+}
+
+.app__menuitem-dash {
+  position: relative;
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+  top: -27px;
+  right: -150px;
+}
+
+.app__menuitem-price {
+  position: relative;
+  top: -42px;
+  right: -275px;
+}
